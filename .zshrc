@@ -104,7 +104,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
-  eval "$(oh-my-posh init zsh --config '~/.config/ohmyposh/base.toml')"
+  eval "$(oh-my-posh init zsh --config '~/.config/ohmyposh/config.toml')"
 fi
 
 export OMZSH_DISTRO='' # Apple NF icon
